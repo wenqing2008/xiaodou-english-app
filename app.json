@@ -1,0 +1,47 @@
+{
+  "name": "XiaoDouEnglishApp",
+  "displayName": "文小豆英语学习",
+  "expo": {
+    "name": "文小豆英语学习",
+    "slug": "xiaodou-english-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.xiaodouenglishapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-sqlite"
+      ],
+      [
+        "expo-av"
+      ]
+    ],
+    "description": "专为高二学生设计的英语单词学习应用，基于科学记忆原理，帮助学生高效掌握英语词汇。",
+    "extra": {
+      "eas": {
+        "projectId": "xiaodou-english-project"
+      }
+    }
+  }
+}
